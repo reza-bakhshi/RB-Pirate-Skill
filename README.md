@@ -6,11 +6,16 @@
 
 [![MCU: RP2350B](https://img.shields.io/badge/MCU-RP2350B-c51a4a?style=flat-square)](https://github.com/reza-bakhshi/RB-Pirate-Firmware)
 [![Platform: OpenCode & Antigravity](https://img.shields.io/badge/Platform-OpenCode%20%7C%20Antigravity-4285f4?style=flat-square)](#installation)
+[![Use: Educational Purposes](https://img.shields.io/badge/Use-Educational%20Purposes-orange?style=flat-square)](#disclaimer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-f5c518?style=flat-square)](LICENSE)
 
 </div>
 
 **RB-Pirate Skill** is a comprehensive agent skill and terminal automation toolkit designed for [OpenCode](https://opencode.ai) and [Google Antigravity](https://github.com/google-deepmind). It enables AI agents and developers to connect to, configure, probe, and automate hardware buses using **Bus Pirate 5 / 6** and the custom **[RB-Pirate](https://github.com/reza-bakhshi/RB-Pirate)** hardware fork — without needing to memorize commands or read extensive manuals.
+
+> [!NOTE]
+> ### Educational & Research Purposes Only
+> This project, its documentation, and associated tools are developed and provided strictly for **educational purposes**, authorized hardware research, development, and laboratory experimentation.
 
 ---
 
@@ -145,6 +150,15 @@ In OpenCode or Antigravity, simply prompt the agent naturally or use the slash c
 - **[RB-Pirate](https://github.com/reza-bakhshi/RB-Pirate)** — RP2350B hardware design.
 - **[RB-Pirate-Firmware](https://github.com/reza-bakhshi/RB-Pirate-Firmware)** — Custom firmware build with merged Sub-GHz, RFID, RF24, and LCDTAP modes.
 - **[RB-Pirate-RGB-HAT](https://github.com/reza-bakhshi/RB-Pirate-RGB-HAT)** — Optional RGB and user button add-on.
+
+---
+
+## Disclaimer
+
+This project is strictly for **educational, prototyping, and authorized research purposes**. 
+- Always ensure target circuits operate within safe voltage (1.65–5V) and current (max 300mA) limits before enabling power or pull-ups.
+- Radio frequency (Sub-GHz and 2.4GHz) features such as jamming or code generation must only be operated in controlled, shielded laboratory environments in full compliance with local RF regulations and laws.
+- The authors assume no liability for misuse, damaged components, or unauthorized hardware interactions.
 
 ---
 
